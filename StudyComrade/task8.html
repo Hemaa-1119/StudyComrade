@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <style>
+        .container {
+          
+            width: 500px;
+            height: 300px;
+           
+            background-image: url('https://picsum.photos/500/300'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;          
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text {
+            color: white; 
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+            margin-bottom: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">Welcome to My Website</div>
+        <button class="button">Click Me</button>
+    </div>
+</body>
+</html>
